@@ -1,0 +1,46 @@
+.date_line {
+  display: flex;
+  justify-content: center;
+  padding: 20px 40px 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.date_box {
+  width: 25%;
+  padding: 10px;
+  display: flex;
+  font-size: 13px;
+  box-shadow: 0 0 5px #ddd;
+  background-color: #fff;
+  font-weight: bold;
+  color: #999;
+}
+.calendar {
+  margin-left: 5px;
+  width: 20%;
+  color: #ff8989ff;
+}
+.date {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+@media (max-width: 768px) {
+  .date_line {
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .date_box {
+    width: 70%;
+    border-radius: 2px;
+  }
+}
+@media (max-width: 900px) {
+  .date_line {
+    text-align: center;
+  }
+  .date_name {
+    margin-bottom: 15px;
+  }
+}
