@@ -1,14 +1,18 @@
 .date_line {
   display: flex;
   justify-content: center;
-  padding: 20px 40px 20px 40px;
+  padding: 20px 40px 10px 40px;
   display: flex;
   justify-content: space-between;
 }
+.date_name {
+  font-size: 28px;
+  font-weight: bold;
+}
 .date_box {
   width: 25%;
-  padding: 10px;
   display: flex;
+  align-items: center;
   font-size: 13px;
   box-shadow: 0 0 5px #ddd;
   background-color: #fff;
@@ -16,7 +20,7 @@
   color: #999;
 }
 .calendar {
-  margin-left: 5px;
+  margin-left: 10px;
   width: 20%;
   color: #ff8989ff;
 }
@@ -33,6 +37,7 @@
   }
   .date_box {
     width: 70%;
+    padding: 10px;
     border-radius: 2px;
   }
 }

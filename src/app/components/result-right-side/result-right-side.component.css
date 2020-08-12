@@ -1,7 +1,6 @@
 .right_result {
   margin-left: 20px;
   width: 100%;
-  /* height: 420px; */
 }
 .right_result_top {
   height: 30%;
@@ -19,7 +18,7 @@
   padding: 15px;
 }
 .right_result_top > p {
-  color: #333;
+  color: #555;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -39,6 +38,7 @@
 }
 .kurs_num > span {
   margin: 0 5px;
+  color: #555;
 }
 
 .right_bottom {
@@ -55,11 +55,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #555;
   background-color: #e9f6fcff;
 }
 .right_bottom_text {
   display: flex;
-  font-size: 15px;
+  font-size: 14px;
   justify-content: start;
   align-items: center;
   margin-left: 15px;
